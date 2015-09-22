@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="338ED144-8209-4C43-B2B3-646666042F03" Version="1.1.0" Language="en-US" Publisher="MiYABiS" />
+    <DisplayName>Moca.NET Code Snippet</DisplayName>
+    <Description xml:space="preserve">A code snippet created for this Moca.NET</Description>
+    <MoreInfo>https://visualstudiogallery.msdn.microsoft.com/96efa364-a9d3-4352-85fc-c5d117abca7f</MoreInfo>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[10.0,14.0)" />
+    <InstallationTarget Version="[10.0,14.0)" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[10.0,14.0)" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="[10.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[10.0,15.0)" Id="Microsoft.VisualStudio.VSWinExpress" />
+    <InstallationTarget Version="[10.0,15.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+    <InstallationTarget Version="[10.0,15.0)" Id="Microsoft.VisualStudio.VSWinDesktopExpress" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="registry.pkgdef" />
+  </Assets>
+</PackageManifest>

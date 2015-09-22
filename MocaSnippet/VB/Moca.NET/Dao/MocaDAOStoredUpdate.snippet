@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>DAOStoredUpdSnippet</Title>
+      <Author>MiYABiS</Author>
+      <Description>DAO Stored Update Snippet</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>daostoredupd</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>SQL</ID>
+          <ToolTip>SQL</ToolTip>
+          <Default>C_SQL</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="vb"><![CDATA[			Using cmd As IDbCommandStoredProcedure = CreateCommandStoredProcedure($SQL$)
+				cmd.AddParameterValue(Nothing)
+
+				Dim cnt As Integer
+				cnt = cmd.ExecuteNonQuery()
+				If cnt = 0 Then
+				End If
+			End Using
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

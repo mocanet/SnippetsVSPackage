@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ICookie</Title>
+      <Author>MiYABiS</Author>
+      <Description>ICookie Snippet</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>icookie</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="vb" Kind="method decl"><![CDATA[#Region " Cookie "
+
+	<Moca.Web.Attr.Cookie(Moca.Web.Attr.CookieType.Request)> _
+	Protected cookieReq As ICookie
+
+	<Moca.Web.Attr.Cookie(Moca.Web.Attr.CookieType.Response)> _
+	Protected cookieRes As ICookie
+
+#End Region
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

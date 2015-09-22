@@ -1,0 +1,30 @@
+<VSContent xmlns="http://schemas.microsoft.com/developer/vscontent/2005">
+    <Content>
+        <FileName>Dao\MocaDAODelete.snippet</FileName>
+        <FileName>Dao\MocaDAOInsert.snippet</FileName>
+        <FileName>Dao\MocaDAOSelect.snippet</FileName>
+        <FileName>Dao\MocaDAOStoredPrepare.snippet</FileName>
+        <FileName>Dao\MocaDAOStoredSelect.snippet</FileName>
+        <FileName>Dao\MocaDAOStoredUpdate.snippet</FileName>
+        <FileName>Dao\MocaDAOUpdate.snippet</FileName>
+		<FileName>Web\ICookie.snippet</FileName>
+		<FileName>Web\IViewState.snippet</FileName>
+		<DisplayName>Moca.NET Code Snippet</DisplayName>
+        <Description>A code snippet created for this Moca.NET</Description>
+        <FileContentType>Code Snippet</FileContentType>
+        <ContentVersion>1.0</ContentVersion>
+        <Attributes>
+            <Attribute name="lang" value="vb"/>
+        </Attributes>
+    </Content>
+	<Content>
+		<FileName>Log4net\Log4net.snippet</FileName>
+		<DisplayName>log4net Code Snippet</DisplayName>
+		<Description>A code snippet created for this log4net</Description>
+		<FileContentType>Code Snippet</FileContentType>
+		<ContentVersion>1.0</ContentVersion>
+		<Attributes>
+			<Attribute name="lang" value="vb"/>
+		</Attributes>
+	</Content>
+</VSContent>
