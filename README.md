@@ -1,5 +1,7 @@
 # SnippetsVSPackage
 
+[![Build status](https://ci.appveyor.com/api/projects/status/otbaxn295i81t1vc?svg=true)](https://ci.appveyor.com/project/miyabis/snippetsvspackage)
+
 A code snippet created for this Moca.NET
 
 How to get
