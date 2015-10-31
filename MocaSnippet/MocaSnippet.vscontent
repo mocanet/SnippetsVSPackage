@@ -1,30 +1,58 @@
 <VSContent xmlns="http://schemas.microsoft.com/developer/vscontent/2005">
-    <Content>
-        <FileName>Dao\MocaDAODelete.snippet</FileName>
-        <FileName>Dao\MocaDAOInsert.snippet</FileName>
-        <FileName>Dao\MocaDAOSelect.snippet</FileName>
-        <FileName>Dao\MocaDAOStoredPrepare.snippet</FileName>
-        <FileName>Dao\MocaDAOStoredSelect.snippet</FileName>
-        <FileName>Dao\MocaDAOStoredUpdate.snippet</FileName>
-        <FileName>Dao\MocaDAOUpdate.snippet</FileName>
-		<FileName>Web\ICookie.snippet</FileName>
-		<FileName>Web\IViewState.snippet</FileName>
-		<DisplayName>Moca.NET Code Snippet</DisplayName>
-        <Description>A code snippet created for this Moca.NET</Description>
-        <FileContentType>Code Snippet</FileContentType>
-        <ContentVersion>1.0</ContentVersion>
-        <Attributes>
-            <Attribute name="lang" value="vb"/>
-        </Attributes>
-    </Content>
-	<Content>
-		<FileName>Log4net\Log4net.snippet</FileName>
-		<DisplayName>log4net Code Snippet</DisplayName>
-		<Description>A code snippet created for this log4net</Description>
-		<FileContentType>Code Snippet</FileContentType>
-		<ContentVersion>1.0</ContentVersion>
-		<Attributes>
-			<Attribute name="lang" value="vb"/>
-		</Attributes>
-	</Content>
+  <Content>
+    <FileName>VB\Moca.NET\Dao\MocaDAODelete.snippet</FileName>
+    <FileName>VB\Moca.NET\Dao\MocaDAOInsert.snippet</FileName>
+    <FileName>VB\Moca.NET\Dao\MocaDAOSelect.snippet</FileName>
+    <FileName>VB\Moca.NET\Dao\MocaDAOStoredPrepare.snippet</FileName>
+    <FileName>VB\Moca.NET\Dao\MocaDAOStoredSelect.snippet</FileName>
+    <FileName>VB\Moca.NET\Dao\MocaDAOStoredUpdate.snippet</FileName>
+    <FileName>VB\Moca.NET\Dao\MocaDAOUpdate.snippet</FileName>
+    <FileName>VB\Moca.NET\Web\ICookie.snippet</FileName>
+    <FileName>VB\Moca.NET\Web\IViewState.snippet</FileName>
+    <DisplayName>Moca.NET Code Snippet (VB)</DisplayName>
+    <Description>A code snippet created for this Moca.NET</Description>
+    <FileContentType>Code Snippet</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="lang" value="vb"/>
+    </Attributes>
+  </Content>
+  <Content>
+    <FileName>CSharp\Moca.NET\Dao\MocaDAODelete.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Dao\MocaDAOInsert.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Dao\MocaDAOSelect.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Dao\MocaDAOStoredPrepare.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Dao\MocaDAOStoredSelect.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Dao\MocaDAOStoredUpdate.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Dao\MocaDAOUpdate.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Web\ICookie.snippet</FileName>
+    <FileName>CSharp\Moca.NET\Web\IViewState.snippet</FileName>
+    <DisplayName>Moca.NET Code Snippet (C#)</DisplayName>
+    <Description>A code snippet created for this Moca.NET</Description>
+    <FileContentType>Code Snippet</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="lang" value="csharp"/>
+    </Attributes>
+  </Content>
+  <Content>
+    <FileName>VB\Moca.NET\Log4net\Log4net.snippet</FileName>
+    <DisplayName>log4net Code Snippet (VB)</DisplayName>
+    <Description>A code snippet created for this log4net</Description>
+    <FileContentType>Code Snippet</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="lang" value="vb"/>
+    </Attributes>
+  </Content>
+  <Content>
+    <FileName>CSharp\Moca.NET\Log4net\Log4net.snippet</FileName>
+    <DisplayName>log4net Code Snippet (C#)</DisplayName>
+    <Description>A code snippet created for this log4net</Description>
+    <FileContentType>Code Snippet</FileContentType>
+    <ContentVersion>1.0</ContentVersion>
+    <Attributes>
+      <Attribute name="lang" value="csharp"/>
+    </Attributes>
+  </Content>
 </VSContent>

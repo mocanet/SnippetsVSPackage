@@ -1,0 +1,7 @@
+﻿// VB
+[$RootKey$\Languages\CodeExpansions\Basic\Paths]
+"MocaSnippets"="$PackageFolder$\VB\Moca.NET"
+
+// C#
+[$RootKey$\Languages\CodeExpansions\CSharp\Paths]
+"MocaSnippets"="$PackageFolder$\CSharp\Moca.NET"

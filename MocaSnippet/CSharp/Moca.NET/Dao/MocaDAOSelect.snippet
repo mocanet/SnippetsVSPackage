@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>DAOSelectSnippet</Title>
+      <Author>MiYABiS</Author>
+      <Description>DAO Select Command Using Snippet
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>daoselect</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>SQL</ID>
+          <ToolTip>SQL</ToolTip>
+          <Default>C_SQL</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>T</ID>
+          <ToolTip>Return Object</ToolTip>
+          <Default>Object</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$">
+        <![CDATA[			const string $SQL$ = "SELECT * FROM Tablename";
+			using (IDbCommandSelect cmd = CreateCommandSelect($SQL$))
+			{
+				cmd.SetParameter("paramname", null);
+
+				//TODO: Modify Return Object
+				return cmd.Execute<$T$>();
+
+				//TODO: Modify Return ExecuteScalar Object
+				//return cmd.ExecuteScalar();
+
+				//TODO: Modify Return DataTable
+				//cmd.Execute();
+				//return cmd.Result1stTable;
+			}
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

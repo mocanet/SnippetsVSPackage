@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>DAOStoredPrepareSnippet</Title>
+      <Author>MiYABiS</Author>
+      <Description>DAO Stored Prepare Snippet
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>daostoredprepare</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>SQL</ID>
+          <ToolTip>SQL</ToolTip>
+          <Default>C_SQL</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ForItemType</ID>
+          <ToolTip>ForItemType</ToolTip>
+          <Default>ForItemType</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>ForInValue</ID>
+          <ToolTip>ForInValue</ToolTip>
+          <Default>ForInValue</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[			const string $SQL$ = "";
+			using (IDbCommandStoredProcedure cmd = CreateCommandStoredProcedure($SQL$))
+			{
+				cmd.Prepare();
+
+				foreach ($ForItemType$ item in $ForInValue$)
+				{
+					cmd.AddParameterValue(null);
+
+					int cnt;
+					cnt = cmd.ExecuteNonQuery();
+					if (cnt.Equals(0))
+					{
+					}
+				}
+			}
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Log4netDeclare</Title>
+      <Author>MiYABiS</Author>
+      <Description>Log4net Declare
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>log4net</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="csharp" Delimiter="$"><![CDATA[		#region Logging For Log4net
+		/// <summary>Logging For Log4net</summary>
+		readonly log4net.ILog _mylog = log4net.LogManager.GetLogger(String.Empty);
+		#endregion
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -79,6 +79,10 @@
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="VB\Moca.NET\Dao\MocaDAODelete.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -87,6 +91,7 @@
     </Content>
     <Content Include="VB\Moca.NET\Dao\MocaDAOSelect.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="VB\Moca.NET\Dao\MocaDAOStoredPrepare.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -103,6 +108,36 @@
     <Content Include="VB\Moca.NET\Log4net\Log4net.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="CSharp\Moca.NET\Dao\MocaDAODelete.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Dao\MocaDAOInsert.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Dao\MocaDAOSelect.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Dao\MocaDAOStoredPrepare.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Dao\MocaDAOStoredSelect.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Dao\MocaDAOStoredUpdate.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Dao\MocaDAOUpdate.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Log4net\Log4net.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Web\ICookie.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CSharp\Moca.NET\Web\IViewState.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="MocaSnippet.vscontent" />
     <None Include="MocaSnippet.ico" />
     <Content Include="VB\Moca.NET\Web\ICookie.snippet">
@@ -110,10 +145,19 @@
     </Content>
     <Content Include="VB\Moca.NET\Web\IViewState.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="registry.pkgdef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ReleaseNote.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest" />
   </ItemGroup>
   <ItemGroup />

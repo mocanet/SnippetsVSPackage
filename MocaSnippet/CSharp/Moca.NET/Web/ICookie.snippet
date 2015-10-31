@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>ICookie</Title>
+      <Author>MiYABiS</Author>
+      <Description>ICookie Snippet
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>icookie</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>ICookie</ID>
+          <ToolTip>ICookie</ToolTip>
+          <Default>ICookie</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[		#region Cookie
+		[Moca.Web.Attr.Cookie(Moca.Web.Attr.CookieType.Request)]
+		protected $ICookie$ cookieReq;
+
+		[Moca.Web.Attr.Cookie(Moca.Web.Attr.CookieType.Response)]
+		protected $ICookie$ cookieRes;
+		#endregion
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

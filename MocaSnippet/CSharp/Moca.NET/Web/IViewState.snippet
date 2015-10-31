@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>IViewState</Title>
+      <Author>MiYABiS</Author>
+      <Description>IViewState Snippet
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>iviewstate</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>IViewState</ID>
+          <ToolTip>IViewState</ToolTip>
+          <Default>IViewState</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[		#region " ViewState Interface "
+		[Moca.Web.Attr.ViewState()]
+		protected interface $IViewState$
+		{
+			//TODO: Add ViewState Property
+			[Moca.Web.Attr.ViewStateName("msg")]
+			public string Message { get; set; }
+		}
+		#endregion
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
