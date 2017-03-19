@@ -8,6 +8,7 @@ supports VB and C# code.</Description>
     <MoreInfo>https://visualstudiogallery.msdn.microsoft.com/96efa364-a9d3-4352-85fc-c5d117abca7f</MoreInfo>
     <License>License.txt</License>
     <ReleaseNotes>ReleaseNote.rtf</ReleaseNotes>
+    <Icon>https://avatars1.githubusercontent.com/u/14543303</Icon>
     <Tags>snippets</Tags>
   </Metadata>
   <Installation>
