@@ -12,15 +12,12 @@ supports VB and C# code.</Description>
         <PreviewImage>MocaNET.png</PreviewImage>
         <Tags>snippets Moca.NET</Tags>
     </Metadata>
-    <Installation>
+    <Installation InstalledByMsi="true">
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,16.0)" />
         <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.Premium" />
         <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.Ultimate" />
         <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.Community" />
         <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.Enterprise" />
-        <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.VSWinDesktopExpress" />
-        <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.VSWinExpress" />
-        <InstallationTarget Version="[11.0,16.0)" Id="Microsoft.VisualStudio.VWDExpress" />
     </Installation>
     <Dependencies>
     </Dependencies>
