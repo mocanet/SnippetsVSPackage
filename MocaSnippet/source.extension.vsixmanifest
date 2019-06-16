@@ -5,11 +5,12 @@
         <DisplayName>Moca.NET Code Snippet</DisplayName>
         <Description xml:space="preserve">A code snippets created for this Moca.NET and Log4net.
 supports VB and C# code.</Description>
-        <MoreInfo>https://visualstudiogallery.msdn.microsoft.com/96efa364-a9d3-4352-85fc-c5d117abca7f</MoreInfo>
+        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=MiYABiS.MocaNETCodeSnippet</MoreInfo>
         <License>License.txt</License>
-        <Icon>MocaNET128.png</Icon>
-        <PreviewImage>MocaNET.png</PreviewImage>
-        <Tags>snippets Moca.NET</Tags>
+        <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
+        <Icon>MocaNET.png</Icon>
+        <PreviewImage>MocaNET200.png</PreviewImage>
+        <Tags>Snippet, Moca.NET, log4net</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,17.0)" />
