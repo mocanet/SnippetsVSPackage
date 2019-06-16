@@ -1,6 +1,7 @@
 # SnippetsVSPackage
 
 [![Build status](https://ci.appveyor.com/api/projects/status/otbaxn295i81t1vc?svg=true)](https://ci.appveyor.com/project/miyabis/snippetsvspackage)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/MiYABiS.MocaNETCodeSnippet.svg)
 [![license](https://img.shields.io/badge/License-MS--PL-blue.svg)](https://opensource.org/licenses/MS-PL)
 
 ## Overview
@@ -23,7 +24,7 @@ supports VB.NET and C# code.
 
 ## How to get
 
-URL:https://visualstudiogallery.msdn.microsoft.com/96efa364-a9d3-4352-85fc-c5d117abca7f
+URL: https://marketplace.visualstudio.com/items?itemName=MiYABiS.MocaNETCodeSnippet
 
 
 
