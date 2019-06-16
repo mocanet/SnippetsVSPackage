@@ -27,7 +27,7 @@ URL:https://visualstudiogallery.msdn.microsoft.com/96efa364-a9d3-4352-85fc-c5d11
 
 
 
-## Other Libraries
+## Moca.NET Libraries
 
 [Moca.NET Organization](https://github.com/mocanet)
 
@@ -48,7 +48,7 @@ URL:https://visualstudiogallery.msdn.microsoft.com/96efa364-a9d3-4352-85fc-c5d11
 
 ## For Development
 
-* Visual Studio 2017
+* Visual Studio 2019
 
 ## License
 
